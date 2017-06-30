@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="用户名:"/>
+        <EditText
+            android:id="@+id/Register_account"
+            android:layout_height="wrap_content"
+            android:hint="请输入用户名"/>
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="密码:"/>
+        <EditText
+            android:id="@+id/Register_password"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码"
+            android:inputType="textPassword"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_gravity="center"/>
+
+
+</TableLayout>
